@@ -4,17 +4,13 @@
 
 package ec.edu.espoch.wckm2025;
 
-import ec.edu.espoch.wckm2025.Vista.vista;
-
-/**
- *
- * @author USER
- */
 public class WCKM2025 {
 
 
     public static void main(String[] args) {
-        vista objVista = new vista();
+        
+        Vista objVista = new Vista();
         objVista.setVisible(true);
+      
     }
 }
