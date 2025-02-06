@@ -4,10 +4,21 @@
  */
 package ec.edu.espoch.wckm2025.Controlador;
 
-/**
- *
- * @author USER
- */
+import ec.edu.espoch.wckm2025.Vista;
+import ec.edu.espoch.wckm2025.WCKM2025;
+
+
 public class Controlador {
+    private Vista vista;
+    private WCKM2025 modelo;
+    
+
+    public Controlador(Vista vista) {
+        this.vista = vista;
+        this.modelo = new WCKM2025();
+    }
+    
+            
+    
     
 }
